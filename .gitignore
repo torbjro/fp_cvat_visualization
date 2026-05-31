@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local data and outputs (not version-controlled)
+data/
+output/
+
+.DS_Store
+.vscode/
+.idea/
+.uv-cache/
+.ruff_cache/
+
+.env

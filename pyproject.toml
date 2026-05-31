@@ -1,0 +1,18 @@
+[project]
+name = "fp-cvat-visualization"
+version = "0.1.0"
+description = "Standalone visualization tool for FOOTPASS events on video, with optional CVAT player tracks and tactical (homography) overlays."
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.10",
+    "numpy>=2.0",
+    "h5py>=3.10",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13",
+]
+
+[tool.ruff]
+lint.extend-select = ["I"]
